@@ -92,3 +92,9 @@ Show 20580 and 33591
 
 > [!Note]
 > Identifying an object and visualising its trajectory are different capabilities. Objects such as Tesla Roadster and James Webb Space Telescope are not suitable for this Earth-orbit viewer, even though they have NORAD catalogue IDs.
+
+## Demo and Resources
+
+- **YouTube Video:** [Watch OrbitSim AI on YouTube](https://youtu.be/SlpDfo8wmII)
+- **Docker image:** [`ghcr.io/lazauk/orbitsim-ai:latest`](https://ghcr.io/lazauk/orbitsim-ai:latest)
+- **Satellite catalogue:** [Space-Track.org](https://www.space-track.org/)
