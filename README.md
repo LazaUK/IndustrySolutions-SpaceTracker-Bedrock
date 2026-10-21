@@ -55,3 +55,17 @@ Where is NORAD 25544 right now?
 ```
 
 Rotate the globe to explore the geometry, switch between views or select a satellite to request its details.
+
+## Feature 2: Find Your Next Sighting
+
+Set **My location** to a town or city, then ask:
+
+``` JSON
+When can I see the ISS?
+```
+
+The **My Sky** view shows the predicted pass relative to the observer. The accompanying answer describes the local time, compass direction, peak elevation and pass duration.
+
+> [!NOTE]
+> These are geometric visibility estimates — not a guarantee that an object will be visible to the naked eye.
+
