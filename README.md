@@ -39,3 +39,19 @@ The first catalogue download may take a little time after a satellite request.
 
 > [!NOTE]
 > Passing `-e SPACETRACK_USER` and `-e SPACETRACK_PASS` copies their values from the environment of the terminal running Docker.
+
+## Feature 1: Explore the Orbit
+
+Display satellites and their predicted ground tracks on an interactive **Three.js globe**. Try:
+
+``` JSON
+Show the ISS, Tiangong and Hubble
+```
+
+The globe displays the satellites with their names and NORAD IDs. Responses describe computed position and altitude; single-satellite requests also provide details such as speed, orbital period and whether the satellite is sunlit.
+
+``` JSON
+Where is NORAD 25544 right now?
+```
+
+Rotate the globe to explore the geometry, switch between views or select a satellite to request its details.
