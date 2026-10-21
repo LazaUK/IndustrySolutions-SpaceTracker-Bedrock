@@ -69,3 +69,26 @@ The **My Sky** view shows the predicted pass relative to the observer. The accom
 > [!NOTE]
 > These are geometric visibility estimates — not a guarantee that an object will be visible to the naked eye.
 
+## Feature 3: Identify Objects by NORAD ID
+
+A **NORAD catalogue ID** identifies a catalogued object unambiguously. It is an identifier, not an orbit classification or a guarantee that current orbital elements are available.
+
+Examples:
+
+| NORAD ID | Object                                |
+| -------- | ------------------------------------- |
+| `25544`  | International Space Station           |
+| `48274`  | Tiangong space station core module    |
+| `20580`  | Hubble Space Telescope                |
+| `33591`  | NOAA 19                               |
+| `00005`  | Vanguard 1                            |
+| `43205`  | Tesla Roadster / Falcon Heavy payload |
+
+When an ID has no current orbital elements in the application’s catalogue, OrbitSim queries **Space-Track SATCAT metadata** to identify the object. You may try:
+
+``` JSON
+Show 20580 and 33591
+```
+
+> [!Note]
+> Identifying an object and visualising its trajectory are different capabilities. Objects such as Tesla Roadster and James Webb Space Telescope are not suitable for this Earth-orbit viewer, even though they have NORAD catalogue IDs.
